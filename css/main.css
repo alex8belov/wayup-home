@@ -1,10 +1,16 @@
 body {
     font-family: "Open Sans", sans-serif;
     margin: 0;
+    padding: 0;
     min-width: 1300px;
+    line-height: 1.6em;
 }
 h1, h2, h3 {
     font-family: "Ubuntu", sans-serif;
+    margin: 0;
+}
+a, h1, h2, h3, div, p, button, form, input {
+    box-sizing: border-box;
 }
 .container {
     width: 1200px;
@@ -14,6 +20,39 @@ h1, h2, h3 {
     background: rgb(55,143,217);
     background: linear-gradient(332deg, rgba(55,143,217,1) 0%, rgba(78,190,254,1) 100%);
     padding-top: 70px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.intro {
+    width: 555px;
+}
+.intro-title {
+    color: #fff;
+    font-size: 37px;
+    line-height: 1.5em;
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+.dream {
+    font-size: 60px;
+}
+.intro-text {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.btn {
+    display: block;
+    width: 225px;
+    padding: 20px;
+    background-color: #FFD429;
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
 }
 .copyright {
     text-align: center;
