@@ -32,16 +32,22 @@ a, h1, h2, h3, div, p, button, form, input {
     color: #fff;
     font-size: 37px;
     line-height: 1.5em;
-    margin-top: 140px;
+    margin-top: 120px;
     margin-bottom: 40px;
 }
 .dream {
     font-size: 60px;
 }
 .intro-text {
+    width: 400px;
     color: #fff;
     font-size: 16px;
     margin-bottom: 40px;
+}
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
 }
 .btn {
     display: block;
@@ -53,6 +59,33 @@ a, h1, h2, h3, div, p, button, form, input {
     font-size: 15px;
     font-family: "Ubuntu", sans-serif;
     text-align: center;
+}
+.btn-form {
+    border: none;
+}
+.list-items {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.list-item {
+    padding-top: 90px;
+    width: 290px;
+    text-align: center;
+    font-size: 15px;
+}
+.item-1 {
+    background: url("../img/icon-time.png") no-repeat center top;
+}
+.item-2 {
+    background: url("../img/icon-palm.png") no-repeat center top;
+}
+.item-3 {
+    background: url("../img/icon-rocket.png") no-repeat center top;
+}
+.item-title {
+    font-size: 19px;
+    margin-bottom: 17px;
 }
 .copyright {
     text-align: center;
