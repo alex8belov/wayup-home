@@ -95,6 +95,7 @@ a, h1, h2, h3, div, p, button, form, input {
     width: 345px;
     height: 50px;
     margin: 12px auto;
+    padding-left: 10px;
 }
 .input:first-child {
     margin-top: 50px;
