@@ -63,6 +63,9 @@ a, h1, h2, h3, div, p, button, form, input {
 .btn-form {
     border: none;
 }
+.what-next {
+    padding-bottom: 120px;
+}
 .list-items {
     margin-top: 70px;
     display: flex;
@@ -87,6 +90,26 @@ a, h1, h2, h3, div, p, button, form, input {
     font-size: 19px;
     margin-bottom: 17px;
 }
+.input {
+    display: block;
+    width: 345px;
+    height: 50px;
+    margin: 12px auto;
+}
+.input:first-child {
+    margin-top: 50px;
+}
+.btn-form {
+    margin: 0 auto 100px;
+    width: 345px;
+}
+
+.footer {
+    background-color: rgb(22, 77, 122);
+    padding: 65px 0;
+}
 .copyright {
     text-align: center;
+    font-size: 14px;
+    color: #fff;
 }
