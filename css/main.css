@@ -1,0 +1,20 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    min-width: 1300px;
+}
+h1, h2, h3 {
+    font-family: "Ubuntu", sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    background: rgb(55,143,217);
+    background: linear-gradient(332deg, rgba(55,143,217,1) 0%, rgba(78,190,254,1) 100%);
+    padding-top: 70px;
+}
+.copyright {
+    text-align: center;
+}
