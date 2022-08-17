@@ -2,7 +2,6 @@ body {
     font-family: "Open Sans", sans-serif;
     margin: 0;
     padding: 0;
-    min-width: 1300px;
     line-height: 1.6em;
 }
 h1, h2, h3 {
@@ -13,7 +12,7 @@ a, h1, h2, h3, div, p, button, form, input {
     box-sizing: border-box;
 }
 .container {
-    width: 1200px;
+    width: 1180px;
     margin: 0 auto;
 }
 .header {
@@ -26,7 +25,7 @@ a, h1, h2, h3, div, p, button, form, input {
     justify-content: space-between;
 }
 .intro {
-    width: 555px;
+    width: 540px;
 }
 .intro-title {
     color: #fff;
@@ -59,6 +58,7 @@ a, h1, h2, h3, div, p, button, form, input {
     font-size: 15px;
     font-family: "Ubuntu", sans-serif;
     text-align: center;
+    margin-bottom: 100px;
 }
 .btn-form {
     border: none;
@@ -113,4 +113,60 @@ a, h1, h2, h3, div, p, button, form, input {
     text-align: center;
     font-size: 14px;
     color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .wrapper {
+        width: 400px;
+    }
+    .bags {
+        display: block;
+        width: 140%;
+        height: 140%;
+        margin-top: 80px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .intro {
+        width: 100%;
+    }
+    .intro-title {
+        width: 100%;
+    }
+    .intro-text {
+        width: 100%;
+    }
+    .bags {
+        margin: 0 auto;
+    }
+    .btn {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .bags {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
 }
