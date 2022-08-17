@@ -119,13 +119,10 @@ a, h1, h2, h3, div, p, button, form, input {
     .container {
         width: 960px;
     }
-    .wrapper {
-        width: 400px;
-    }
     .bags {
         display: block;
-        width: 140%;
-        height: 140%;
+        width: 500px;
+        height: 500px;
         margin-top: 80px;
     }
 
@@ -136,7 +133,9 @@ a, h1, h2, h3, div, p, button, form, input {
         width: 720px;
     }
     .wrapper {
+        width: 100%;
         flex-direction: column;
+        align-items: center;
     }
     .intro {
         width: 100%;
@@ -163,13 +162,14 @@ a, h1, h2, h3, div, p, button, form, input {
     .container {
         width: 540px;
     }
-    .bags {
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 576px) {
     .container {
         width: 90%;
+    }
+    .bags {
+        width: 90%;
+        height: 90%;
     }
 }
