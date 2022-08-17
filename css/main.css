@@ -150,10 +150,10 @@ a, h1, h2, h3, div, p, button, form, input {
     .bags {
         margin: 0 auto;
     }
-    .btn {
-        text-align: center;
+    .list-items {
+        flex-direction: column;
+        align-items: center;
     }
-
 }
 
 @media screen and (max-width: 768px) {
